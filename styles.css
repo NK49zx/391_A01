@@ -46,6 +46,11 @@ a{
   font-size: large;
   font-weight: bold;
   border-radius: 10px;
+  transition-duration: 0.4s;
+}
+.btn:hover{
+  color: #04b2fb;
+  background-color: white;
 }
 p{
   color: white;
@@ -151,9 +156,11 @@ footer{
   background-color: #ee6c4d;
   margin-top: 5%;
   border-radius: 10px;
+  
 }
 .ft-div{
   padding: 3%;
+  text-align: center;
 }
 .ft-ul{
   color: white;
