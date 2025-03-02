@@ -122,6 +122,7 @@ p{
 }
 .sft-ul{
   font-size: large;
+  list-style: square;
 }
 .edu{
   margin: 4% 0 4% 0;
@@ -152,7 +153,6 @@ td{
 }
 
 footer{
-  height: 300px;
   background-color: #ee6c4d;
   margin-top: 5%;
   border-radius: 10px;
