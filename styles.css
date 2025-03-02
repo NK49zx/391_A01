@@ -1,0 +1,165 @@
+
+
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+main{
+  margin-top: 5%;
+  background-color: #04b2fb;
+  border-radius: 10px;
+  padding: 3%;
+}
+a{
+  text-decoration: none;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav-li{
+    display: flex;   
+    gap: 2em;
+    list-style: none;
+}
+.banner{
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+.ban-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn{
+  width: 160px;
+  padding: 2%;
+  background-color: #04b2fb;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+}
+p{
+  color: white;
+  font-size: large;
+}
+.navigation{
+  margin-top: 5%;
+}
+.nav-li{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: larger;
+  font-weight: 500;
+}
+.qte{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  font-size: xx-large;
+  text-align: center;
+  background-color: #f0f1e1;
+  padding: 3%;
+  box-shadow: 5px 10px;
+}
+.abt-div{
+  display: flex;
+  gap: 5%;
+  p{
+    color: black;
+  }
+}
+.abt-sub-div{
+  background-color: #f0f1e1;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 5px 0px;
+}
+.abt-sub-div2{
+  background-image: url(https://images.alphacoders.com/564/thumb-1920-564986.jpg);
+  background-repeat: no-repeat;
+  padding: 2%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.info-table{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  background-color: #f0f1e1;
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+}
+.tech-div{
+  display: flex;
+  justify-content: center;
+  background-color: #f0f1e1;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+  gap: 2%;
+}
+.sft-skill{
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  justify-content: center;
+}
+.sft-ul{
+  font-size: large;
+}
+.edu{
+  margin: 4% 0 4% 0;
+}
+.ed-ul{
+  color: white;
+  font-size: large;
+}
+table, th, td, caption {
+  
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: center;
+  
+}
+caption{
+  font-size: larger;
+  color: black;
+  font-weight: 700;
+}
+td{
+  font-weight: 400;
+}
+.tech-tbody{
+  tr:nth-child(odd) {
+    background-color: #8F9AA5;
+  }
+}
+
+footer{
+  height: 300px;
+  background-color: #ee6c4d;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.ft-div{
+  padding: 3%;
+}
+.ft-ul{
+  color: white;
+  font-size: large;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
