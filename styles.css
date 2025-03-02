@@ -112,12 +112,12 @@ p{
   padding: 3%;
   border-radius: 10px;
   box-shadow: 5px 10px;
-  gap: 2%;
+  gap: 3%;
 }
+
 .sft-skill{
   display: flex;
   flex-direction: column;
-  gap: 2%;
   justify-content: center;
 }
 .sft-ul{
